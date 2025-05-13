@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'segoe UI, tahoma, geneva, verdana,sans-serif'
     }
     
     body {
@@ -14,14 +14,22 @@
     a {
     text-decoration: none;
     color: #2c3e50;
+
     }
     
-    /* Cabeçalho */
     header {
     background: linear-gradient(135deg, #3498db, #2c3e50);
     color: white;
     text-align: center;
     padding: 2rem 0;
     position: relative;
+    }
+    
+    .profile-img{
+        width: 150px;
+        height: 150px;
+        border: 5px solid white;
+        margin-bottom: cover;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
     
